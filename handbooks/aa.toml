@@ -1,0 +1,20 @@
+data_source_name = "aa"
+brief_description = "aa"
+handbook = "aa"
+code_example = """
+# Example: download data from this source and save it to a file.
+import requests
+import geopandas as gpd
+
+def download_data():
+    # 1. Call the source's API / endpoint.
+    # 2. Parse the response into a GeoDataFrame (or DataFrame).
+    # 3. Save it to a file (.gpkg / .csv / .geojson) so the workflow can use it.
+    pass
+
+download_data()"""
+website = ""
+requires_key = ""
+key_name = ""
+caveats = ""
+key_signup_url = ""
